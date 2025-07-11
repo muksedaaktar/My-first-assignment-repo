@@ -70,3 +70,40 @@ header div{
   display: block;
   overflow: hidden;
 }
+.Productive{
+    display: flex;
+    gap: 158px;
+   justify-content: center;
+}
+.heading{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+.type{
+    font-weight: bold;
+    font-size: 80;
+    color: #4E47FF;
+    width: 135px;
+    height: 50px;
+}
+.users-section{
+
+    display: block;
+background-color: #4d47ff48;
+    height: 306px;
+   text-align: center;
+   max-width: 1140px;
+   margin: auto;
+   position: 201px 1257px;
+   margin: auto;
+   padding: 50px 80px;
+   border-radius: 24px;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    
+}

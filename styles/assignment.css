@@ -126,7 +126,7 @@ background-color: #4d47ff48;
  input[type="text"],input[type="email"],textarea{
     height: 70px;
     border-radius: 5px;
-    /* background-color: #FFFFFF; */
+    background-color: #FFFFFF;
     display: block;
     width: 100%;
     padding: 32px 20px;
@@ -138,3 +138,33 @@ background-color: #4d47ff48;
  .secondary-bg{
     background-color: #4d47ff0b;
  }
+ .head{
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+ }
+ .ready{
+    color: #8987A1;
+    width: 531px;
+    height: 48px;
+    margin: auto;
+ }
+.title{
+    display: flex;
+    /* gap: 1px; */
+    text-align: center;
+}
+.last{
+    
+    text-align: center;
+    margin: auto;
+}
+.description{
+    /* text-align: center; */
+    margin: 0 auto;
+   
+}
+.btn-primary:hover{
+    font-size: large;
+    background-color: orange;
+}

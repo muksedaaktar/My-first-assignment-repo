@@ -3,87 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first assignment</title>
+    <title>First-assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/assignment.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/assignment.css">
 </head>
-<body class="inter-normal secondary-bg">
+<body class="body">
     <header class="header">
-        <nav>
-            <h2 class="nav-title">LOGO</h2>
-            <button class="btn-primary raleway-normal">Sign Up</button>
+        <nav class="navbar">
+            <h3 class="nav-title inter-normal">LOGO</h3>
+            <button class="btn-primary raleway-normal btn-primary:hover">Sign Up</button>
         </nav>
-        <div class="banner">
-            <h3 class="raleway-normal">Cool Dark UI Template for <br> Webflow Agencies!</h3>
-            <button class="btn-primary raleway-normal">Stay Focused</button>
-        </div>
 
+        <!-- Banner section -->
+        <section class="banner-section">
+             <h2 class="banner-title raleway-normal">Cool Dark UI Template for <br> Webflow Agencies!</h2>
+         <button class="banner-btn btn-primary:hover raleway-normal btn-primary">Stay Focused</button>
+
+        </section>
     </header>
+
     <main>
-        <section class="Action">
-            <div>
-            <h2 class="section-title">See It in Action</h2>
-           <p class="section-description raleway-normal">Explore the live preview and imagine your <br> brand in this bold new look.</p>
-           <button class="btn-primary raleway-normal">Launch Live Preview</button>
-           </div>
-           <div>
-           <!-- <img src="Assets/wc-mini.png" alt="" class="img-format">-->
-            <img src="Assets/wc-mini.png" alt="" class="img-format">
-           </div>
+        <section class="action-section">
+            <div class="left-div-action">
+                <h2 class="action-title raleway-normal">See It in Action</h2>
+                <p class="action-description raleway-normal">Explore the live preview and imagine your <br> brand in this bold new look.</p>
+                <button class="btn-primary action-btn raleway-normal">Launch Live Preview</button>
+
+            </div>
+            <div class="right-div-action">
+                <img src="Assets/wc-mini.png" class="action-img" alt="">
+
+            </div>
 
         </section>
-        <section class="users-section">
-            <h2 class="heading">Joined Thousands of Productive Users</h2>
-            <div class="Productive">
-            <div class="users">
-                <h4 class="type">50K</h4>
-                <p class="description inter-normal">Active Users</p>
-            </div>
-             <div class="users">
-                <h4 class="type">2M+</h4>
-                <p class="description inter-normal">Focus Sessions</p>
-            </div>
-             <div class="users">
-                <h4 class="type">95%</h4>
-                <p class="description inter-normal">Satisfaction Rate</p>
-            </div>
-            </div>
-           
-        </section>
-         <section class="section">
-                <div>
-                    <div class="section-column">
-                        <h2 class="touch raleway-normal">Let’s Get in Touch</h2>
-                    </div>
-                    
-                </div>
-                <div class="section-column">
-                    <form action="">
-                        <input type="email" name="" id="" placeholder="example@email.com">
-                        <input type="text" name="" id="" placeholder="full name">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="write your message"></textarea>
-                        <input class="btn-primary" type="submit" value="Get in Touch">
-                    </form>
-                </div>
-            </section>
-
-
-    </main>
-    <footer class="last">
-        <h2 class="head inter-normal">LOGO</h2>
-        <p class="ready">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
-        <div class="title">
-            <div class="description">Home</div>
-            <div class="description">About</div>
-            <div class="description">How It Works</div>
-            <div class="description">Service</div>
-        </div>
         
+
+        <!-- productive user section -->
+
+        <section class="productive-user">
+            <h2 class="productive-title raleway-normal">Joined Thousands of Productive Users</h2>
+            <div class="parent-div">
+                <div>
+                    <h2 class="productive-feedback inter-normal">50K</h2>
+                    <p class="productive-feedback-description inter-normal">Active Users</p>
+
+                </div>
+                <div>
+                    <h2 class="productive-feedback inter-normal">2M+</h2>
+                    <p class="productive-feedback-description inter-normal">Focus Sessions</p>
+
+                </div>
+                <div>
+                    <h2 class="productive-feedback inter-normal">95%</h2>
+                    <p class="productive-feedback-description inter-normal">Satisfaction Rate</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- challenge part -->
+         <section class="users-say">
+            <h2 class="users-say-title raleway-normal">What our users say</h2>
+            <div class="card-parent">
+                <div class="users-card">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+                <h3 class="inter-normal designer-title">Loved by Designers</h3>
+                <p class="users-card-riview inter-normal">This template instantly leveled up our <br> presence.” – Studio Vertex</p>
+                <div class="riviewer-div">
+                    <img src="Assets/avatar.png" class="reviewer-img" alt="">
+                    <div>
+                        <h2 class="riviewer-name inter-normal">Reviewer name</h2>
+                        <p class="date inter-normal">Date</p>
+                    </div>
+                </div>
+            </div>
+            <div class="users-card">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+                <h3 class="inter-normal designer-title">Loved by Designers</h3>
+                <p class="users-card-riview inter-normal">This template instantly leveled up our <br> presence.” – Studio Vertex</p>
+                <div class="riviewer-div">
+                    <img src="Assets/avatar.png" class="reviewer-img" alt="">
+                    <div>
+                        <h2 class="riviewer-name inter-normal">Reviewer name</h2>
+                        <p class="date inter-normal">Date</p>
+                    </div>
+                </div>
+            </div>
+            <div class="users-card">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+                <h3 class="inter-normal designer-title">Loved by Designers</h3>
+                <p class="users-card-riview inter-normal">This template instantly leveled up our <br> presence.” – Studio Vertex</p>
+                <div class="riviewer-div">
+                    <img src="Assets/avatar.png" class="reviewer-img" alt="">
+                    <div>
+                        <h2 class="riviewer-name inter-normal">Reviewer name</h2>
+                        <p class="date inter-normal">Date</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+         </section>
+
+         <!-- focus section -->
+          <section class="focus">
+            <h2 class="focus-title raleway-normal">Ready to focus better</h2>
+            <p class="focus-description inter-normal">This template instantly leveled up our presence.” – Studio Vertex</p>
+            <button class="started-btn btn-primary">Get Started Free</button>
+            <div>
+                <img src="Assets/wc-big.png" class="focus-img" alt="">
+            </div>
+
+          </section>
+
+        <!-- let's get in touch section -->
+         <section class="touch-section">
+            <div>
+                <h2 class="touch-title raleway-normal">Let’s Get in <br> Touch</h2>
+
+            </div>
+            <div class="form-touch">
+                <form>
+                    <label class="form-title inter-normal" for="">Email</label> <br>
+                    <br>
+                    <input class="inter-normal form-description" type="text" placeholder="example@email.com">
+                    <br>
+                    <br>
+                    <label class="form-title inter-normal " for="">Name</label>
+                    <br>
+                    <br>
+                    <input class="inter-normal form-description" type="text" placeholder="full name">
+                    <br>
+                    <br>
+                    <label class="form-title inter-normal" for="">Message</label>
+                    <br>
+                    <br>
+                    <textarea class="inter-normal message-description" name=""  placeholder="write your message...." id=""></textarea>
+                    <br> <br>
+                    <button class="touch-btn btn-primary raleway-normal">Get in Touch</button>
+                </form>
+
+            </div>
+
+         </section>
+    </main>
+
+    <footer class="footer-section">
+        <h2 class="footer-logo inter-normal">LOGO</h2>
+        <p class="footer-description inter-normal">Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</p>
+        <div class="footer inter-normal">
+            <p>Home</p>
+            <p>About</p>
+            <p>How it Works</p>
+            <p>Services</p>
+        </div>
+
     </footer>
+    
 </body>
 </html>
